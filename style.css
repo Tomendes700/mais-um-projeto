@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: forestgreen;
+}
+
+
+<style>
+body {
+      display: flex;
+      align-items: center;
+    }
+
+    h1, h2 {
+      margin: 0;
+    }
+
+    h1 {
+      order: 1; /* Controla a ordem no eixo transversal (por padrão, ambos os h1 e h2 têm order: 0) */
+      
+     
+      
+    }
+
+    h2 {
+        order: -1;
+        
+    }
+
+
+
+
+    .logo-image {
+        width: 80vh;
+        font-weight: 1000vw;
+        margin-left: 350px;
+      }
+
+      .link-header {
+        background-color: mediumblue;
+        color: lightyellow;
+        font-size: 48px;
+        margin-right: 40px;
+      }   
+      
+      .button {
+        background-color: darkorange;
+        color: cornsilk;
+        font-size: 48px;
+        max-width: 40px;
+        border-radius: 10%;
+      }
+
+    .outro-header  {
+        color: darkorange;
+        font-size: 20px; 
+        margin-left: 20px;
+      }
+
+
+      .outro-header01 {
+        color: darkorange;
+        font-size: 20px; 
+        margin-left: 20px;
+        display: flex;
+      }
+  </style>
+
+  
